@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    min-width: 300px;
+}
+.navbar-nav {
+    margin-left: auto;
+    text-align: right;
+}
+
+.nav-item {
+    margin-left: 40px;
+}
+
+.nav-link {
+    color: deepskyblue !important;
+    font-size: 12px !important;
+    display: unset !important;
+}
+
+.fa-bars {
+    color: black;
+    font-size: 30px !important;
+    border: 0;
+}
+
+.navbar-toggler {
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+    box-shadow: none !important;
+
+}
+
+.nav-link:hover {
+    border: 1px dotted deepskyblue;
+}
+
+.navbar-brand {
+    font-family: 'Comfortaa', cursive;
+}
+
+.asosiy-btn {
+    margin-top: 10%;
+}
+
+#menu-content .container-fluid {
+    padding: 6%;
+    border: 1px solid black;
+
+}
+
+.asosiy-btn p {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 70px;
+    letter-spacing: -0.015em;
+    text-align: center;
+
+}
+
+.today {
+    background: #18A0FB !important;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    font-size: 15px !important;
+}
+
+.today1 {
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    font-size: 15px !important;
+}
+
+.snap {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-left: 8% !important;
+
+}
+
+.bold {
+    font-weight: 700 !important;
+    font-size: 22px;
+}
+
+#pricing p {
+    font-size: 40px;
+}
+.footer-1 p{
+    display: inline-block;
+    margin-right: 6%;
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width:500px) {
+    #menu-content .container-fluid p {
+        font-size: 30px;
+    }
+
+    #features .col-md-6 {
+        margin-bottom: 10px;
+    }
+
+    .bold {
+        margin-top: 20px;
+    }
+
+    .snap {
+        font-size: 30px;
+    }
+
+    .chap {
+        padding-left: 10px !important;
+    }
+
+    #pricing p {
+        font-size: 25px !important;
+    }
+
+    #pricing .ikki-p {
+        font-size: 20px !important;
+    }
+    #community p{
+        font-size: 20px !important;
+    }
+    #community .today{
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:766px) {
+    #pricing .col-md-3 {
+        margin-top: 25px;
+    }
+}
